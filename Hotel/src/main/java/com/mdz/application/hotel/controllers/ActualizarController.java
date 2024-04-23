@@ -30,9 +30,6 @@ public class ActualizarController {
     private TextField idTxt;
 
     @FXML
-    private Button mostrarBtn;
-
-    @FXML
     private ComboBox<String> peopleComboBox;
 
     @FXML
@@ -72,10 +69,6 @@ public class ActualizarController {
 
     @FXML
     void onClickExitButton(MouseEvent event) {
-    }
-
-    @FXML
-    void onClickMostrarBtn(MouseEvent event) {
     }
 
     @FXML
