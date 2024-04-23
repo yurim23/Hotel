@@ -8,13 +8,14 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mdz.application.hotel.controllers.HomeController">
    <children>
       <Button fx:id="disponibilidadButton" layoutX="94.0" layoutY="140.0" mnemonicParsing="false" onMouseClicked="#onClickDispoButton" prefHeight="64.0" prefWidth="148.0" style="-fx-background-color: #DAF7A6;" text="Buscar Disponibilidad" AnchorPane.leftAnchor="94.0" AnchorPane.topAnchor="140.0" />
-      <Button fx:id="reservarButton" layoutX="419.0" layoutY="140.0" mnemonicParsing="false" onMouseClicked="#onClickReservarButton" prefHeight="64.0" prefWidth="148.0" style="-fx-background-color: #CAFCF3;" text="Reservar Habitación" AnchorPane.rightAnchor="94.0" AnchorPane.topAnchor="140.0" />
+      <Button fx:id="reservarButton" layoutX="373.0" layoutY="99.0" mnemonicParsing="false" onMouseClicked="#onClickReservarButton" prefHeight="64.0" prefWidth="148.0" style="-fx-background-color: #CAFCF3;" text="Reservar Habitación" AnchorPane.rightAnchor="119.0" AnchorPane.topAnchor="99.0" />
       <Button fx:id="verButton" layoutX="88.0" layoutY="358.0" mnemonicParsing="false" onMouseClicked="#onClickVerButton" prefHeight="64.0" prefWidth="148.0" style="-fx-background-color: #F8CAFC;" text="Ver Reservaciones" AnchorPane.bottomAnchor="140.0" AnchorPane.leftAnchor="98.0" />
-      <Button fx:id="cancelReservationButton" layoutX="419.0" layoutY="358.0" mnemonicParsing="false" onMouseClicked="#onClickCancelButton" prefHeight="64.0" prefWidth="148.0" style="-fx-background-color: #FCCACA;" text="Cancelar una reservacion" AnchorPane.bottomAnchor="140.0" AnchorPane.rightAnchor="94.0" />
+      <Button fx:id="cancelReservationButton" layoutX="373.0" layoutY="208.0" mnemonicParsing="false" onMouseClicked="#onClickCancelButton" prefHeight="64.0" prefWidth="148.0" style="-fx-background-color: #FCCACA;" text="Cancelar una reservacion" AnchorPane.bottomAnchor="208.0" AnchorPane.rightAnchor="119.0" />
       <Label alignment="CENTER" layoutY="-2.0" prefHeight="64.0" prefWidth="640.0" style="-fx-background-color: purple;" text="RESERVAR HABITACIONES" textFill="WHITE">
          <font>
             <Font name="Bodoni MT Bold Italic" size="18.0" />
          </font>
       </Label>
+      <Button fx:id="actualizarBoton" layoutX="373.0" layoutY="316.0" mnemonicParsing="false" onMouseClicked="#onClickActualizar" prefHeight="49.0" prefWidth="138.0" style="-fx-background-color: AA49C4FF;" text="Actualizar" />
    </children>
 </AnchorPane>

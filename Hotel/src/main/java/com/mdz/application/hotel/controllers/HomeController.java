@@ -25,6 +25,8 @@ public class HomeController {
     private Button cancelReservationButton;
 
     @FXML
+    private Button actualizarBoton;
+    @FXML
     void onClickCancelButton(MouseEvent event) {
         App.newStage("cancelar-view", "cancelar");
     }
@@ -74,6 +76,11 @@ public class HomeController {
 
     public void initialize(){
         App.getHotel().sethabitaciones();
+    }
+
+    @FXML
+    void onClickActualizar(MouseEvent event) {
+        App.newStage("actualizar-view", "ventana de actualizar datos");
     }
 
 }

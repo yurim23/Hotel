@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mdz.application.hotel.controllers.ActualizarController">
+   <children>
+      <TextField fx:id="idTxt" layoutX="27.0" layoutY="143.0" />
+      <Label layoutX="22.0" layoutY="117.0" text="Ingrese el ID de la reservacion" />
+      <Button fx:id="mostrarBtn" layoutX="443.0" layoutY="134.0" mnemonicParsing="false" onMouseClicked="#onClickMostrarBtn" text="Mostrar Datos" />
+      <Button fx:id="exitButton" layoutX="462.0" layoutY="249.0" mnemonicParsing="false" onMouseClicked="#onClickExitButton" style="-fx-background-color: red;" text="Salir" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="56.0" prefWidth="594.0" style="-fx-background-color: Skyblue;" text="Reservar Habitación" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="actualizarBtn" layoutX="455.0" layoutY="196.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickActualizarBtn" text="Actualizar" />
+      <DatePicker fx:id="datePicker" layoutX="14.0" layoutY="222.0" />
+      <ComboBox fx:id="tipoComboBox" layoutX="225.0" layoutY="122.0" onAction="#tipoSelectedComboBox" prefWidth="150.0" promptText="Seleccione" />
+      <ComboBox fx:id="peopleComboBox" layoutX="225.0" layoutY="209.0" prefWidth="150.0" promptText="Seleccione" />
+      <Label layoutX="53.0" layoutY="200.0" text="Ingrese una fecha " />
+      <Label layoutX="234.0" layoutY="93.0" text="Elija el tipo de habitacion" />
+      <Label layoutX="223.0" layoutY="179.0" text="Elija el numero de personas" />
+      <Label layoutX="218.0" layoutY="266.0" text="Elija el numero de la habitación" />
+      <ComboBox fx:id="habitacionComboBox" layoutX="225.0" layoutY="297.0" prefWidth="150.0" promptText="Seleccione" />
+   </children>
+</AnchorPane>
